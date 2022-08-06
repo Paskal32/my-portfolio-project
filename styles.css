@@ -17,9 +17,19 @@ h4 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
 
+h2 {
+  font-size: 64px;
+}
 p {
   font-weight: normal;
+  color: #272142;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -28,20 +38,16 @@ p {
   padding: 160px 20px;
 }
 .hero p {
-  color: #272142;
-  font-size: 36px;
   font-weight: bold;
+  font-size: 36px;
   margin: 0;
 }
 
-.hero h1 {
-  font-size: 96px;
-}
 .hero h2 {
   color: #272142;
   font-family: var(--default-font-family);
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-weight: 400;
 }
 
@@ -53,4 +59,38 @@ p {
   padding: 18px 30px;
   background: var(--primary-color);
   border-radius: 4px;
+}
+
+.btn-branding-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 4px;
+}
+
+.project-description {
+  padding: 80px 60px;
+}
+
+.my-project {
+  font-size: 18px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 46px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
