@@ -25,6 +25,10 @@ h1 {
 h2 {
   font-size: 64px;
 }
+
+h3 {
+  font-weight: bold;
+}
 p {
   font-weight: normal;
   color: #272142;
@@ -51,20 +55,21 @@ p {
   font-weight: 400;
 }
 
-.about-section {
+.content {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section img {
+
+.content img {
   display: block;
   margin: auto;
   border-radius: 10px;
@@ -73,10 +78,6 @@ p {
 
 .about-section-content {
   margin: 30px;
-}
-
-.work-project-section {
-  padding: 160px 20px;
 }
 
 .work-project-section h2 {
@@ -134,11 +135,8 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
-    text-align: center;
-    padding: 10px;
-  }
-  .work-project-section {
+
+  .content {
     padding: 10px;
     text-align: center;
   }
