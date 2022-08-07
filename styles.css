@@ -75,6 +75,23 @@ p {
   margin: 30px;
 }
 
+.work-project-section {
+  padding: 160px 20px;
+}
+
+.work-project-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.work-project-section p {
+  font-size: 14px;
+  text-align: center;
+}
+
 .btn-branding {
   color: #ffffff;
   font-size: 18px;
@@ -120,5 +137,9 @@ p {
   .about-section {
     text-align: center;
     padding: 10px;
+  }
+  .work-project-section {
+    padding: 10px;
+    text-align: center;
   }
 }
